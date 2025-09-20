@@ -9,7 +9,7 @@ const AboutSection = () => {
             AeroVoyage Aviation - India's Premier Training Institute
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Master DGCA exams with expert-led online ground school. Learn from experienced airline pilots like 
+            Ace your DGCA examinations with professional online ground training. Learn from experienced airline pilots like 
             <strong> Mohit Babbar</strong> and <strong>Abhas Sandilya</strong>. 
             Our ATC courses include comprehensive CPL/ATPL training, Type Rating preparation, and RTR(A) certification 
             with 24/7 support and proven success rates.

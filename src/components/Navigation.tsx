@@ -22,7 +22,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Plane className="h-8 w-8 text-primary" />
-            <span className="font-bold text-xl text-foreground">AeroVoyage Aviation</span>
+            <span className="font-playfair font-semibold text-xl text-foreground tracking-wide">AeroVoyage Aviation</span>
           </div>
 
           {/* Desktop Navigation */}

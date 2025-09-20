@@ -67,6 +67,10 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      fontFamily: {
+        'playfair': ['Playfair Display', 'serif'],
+        'inter': ['Inter', 'sans-serif'],
+      },
       backgroundImage: {
         'gradient-hero': 'var(--gradient-hero)',
         'gradient-sky': 'var(--gradient-sky)',

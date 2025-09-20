@@ -21,7 +21,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Master DGCA exams with expert-led online ground school at AeroVoyage Aviation.
+          Ace your DGCA examinations with professional online ground training at AeroVoyage Aviation.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
