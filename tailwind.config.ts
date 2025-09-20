@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Aviation-specific colors
+        aviation: {
+          primary: "hsl(var(--aviation-primary))",
+          "primary-light": "hsl(var(--aviation-primary-light))",
+          sky: "hsl(var(--aviation-sky))",
+          "sky-light": "hsl(var(--aviation-sky-light))",
+          navy: "hsl(var(--aviation-navy))",
+          gold: "hsl(var(--aviation-gold))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +66,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-sky': 'var(--gradient-sky)',
+        'gradient-button': 'var(--gradient-button)',
+      },
+      boxShadow: {
+        'aviation': 'var(--shadow-aviation)',
+        'card-custom': 'var(--shadow-card)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
       },
       borderRadius: {
         lg: "var(--radius)",
