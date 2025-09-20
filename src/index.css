@@ -2,59 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-/* AeroVoyage Aviation Design System - Professional Aviation Color Palette
+/* AeroVoyage Aviation Design System - Navy & Gold Aviation Color Palette
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 210 18% 12%;
+    --foreground: 210 50% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 18% 12%;
+    --card-foreground: 210 50% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 18% 12%;
+    --popover-foreground: 210 50% 15%;
 
-    /* Aviation Primary - Professional Teal */
-    --primary: 174 70% 41%;
-    --primary-foreground: 0 0% 100%;
+    /* Aviation Primary - Luxurious Gold */
+    --primary: 45 95% 55%;
+    --primary-foreground: 210 50% 15%;
 
-    /* Aviation Secondary - Sky Blue */
-    --secondary: 200 95% 92%;
-    --secondary-foreground: 210 18% 12%;
+    /* Aviation Secondary - Light Navy */
+    --secondary: 210 40% 95%;
+    --secondary-foreground: 210 50% 15%;
 
     --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted-foreground: 210 30% 45%;
 
-    /* Aviation Accent - Deep Sky */
-    --accent: 205 86% 65%;
-    --accent-foreground: 0 0% 100%;
+    /* Aviation Accent - Rich Gold */
+    --accent: 45 100% 60%;
+    --accent-foreground: 210 50% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 174 70% 41%;
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 45 95% 55%;
 
     /* Aviation-specific colors */
-    --aviation-primary: 174 70% 41%;
-    --aviation-primary-light: 174 70% 55%;
-    --aviation-sky: 205 86% 65%;
-    --aviation-sky-light: 205 86% 80%;
-    --aviation-navy: 210 25% 25%;
+    --aviation-primary: 45 95% 55%;
+    --aviation-primary-light: 45 95% 65%;
+    --aviation-navy: 210 50% 15%;
+    --aviation-navy-light: 210 40% 25%;
     --aviation-gold: 45 100% 60%;
+    --aviation-gold-light: 45 100% 70%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(174 70% 41% / 0.9), hsl(205 86% 65% / 0.8));
-    --gradient-sky: linear-gradient(180deg, hsl(205 86% 95%), hsl(174 40% 98%));
-    --gradient-button: linear-gradient(135deg, hsl(174 70% 41%), hsl(174 70% 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 50% 15% / 0.95), hsl(210 45% 20% / 0.9));
+    --gradient-sky: linear-gradient(180deg, hsl(210 40% 98%), hsl(210 35% 95%));
+    --gradient-button: linear-gradient(135deg, hsl(45 95% 55%), hsl(45 90% 50%));
 
     /* Shadows */
-    --shadow-aviation: 0 10px 30px -10px hsl(174 70% 41% / 0.3);
-    --shadow-card: 0 4px 20px -4px hsl(210 18% 12% / 0.1);
+    --shadow-aviation: 0 10px 30px -10px hsl(45 95% 55% / 0.4);
+    --shadow-card: 0 4px 20px -4px hsl(210 50% 15% / 0.1);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -79,50 +79,50 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 210 25% 8%;
-    --foreground: 0 0% 98%;
+    --background: 210 50% 8%;
+    --foreground: 45 90% 85%;
 
-    --card: 210 25% 12%;
-    --card-foreground: 0 0% 98%;
+    --card: 210 45% 12%;
+    --card-foreground: 45 90% 85%;
 
-    --popover: 210 25% 12%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 210 45% 12%;
+    --popover-foreground: 45 90% 85%;
 
-    --primary: 174 70% 50%;
-    --primary-foreground: 210 25% 8%;
+    --primary: 45 100% 65%;
+    --primary-foreground: 210 50% 8%;
 
-    --secondary: 210 25% 18%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 210 40% 18%;
+    --secondary-foreground: 45 90% 85%;
 
-    --muted: 210 25% 18%;
-    --muted-foreground: 215 15% 65%;
+    --muted: 210 40% 18%;
+    --muted-foreground: 45 60% 65%;
 
-    --accent: 205 86% 60%;
-    --accent-foreground: 210 25% 8%;
+    --accent: 45 100% 70%;
+    --accent-foreground: 210 50% 8%;
 
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 210 25% 18%;
-    --input: 210 25% 18%;
-    --ring: 174 70% 50%;
+    --border: 210 40% 20%;
+    --input: 210 40% 20%;
+    --ring: 45 100% 65%;
 
     /* Aviation-specific dark colors */
-    --aviation-primary: 174 70% 50%;
-    --aviation-primary-light: 174 70% 65%;
-    --aviation-sky: 205 86% 70%;
-    --aviation-sky-light: 205 86% 85%;
-    --aviation-navy: 210 25% 15%;
-    --aviation-gold: 45 95% 65%;
+    --aviation-primary: 45 100% 65%;
+    --aviation-primary-light: 45 100% 75%;
+    --aviation-navy: 210 50% 8%;
+    --aviation-navy-light: 210 45% 15%;
+    --aviation-gold: 45 100% 70%;
+    --aviation-gold-light: 45 100% 80%;
 
     /* Dark mode gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(174 70% 50% / 0.9), hsl(205 86% 60% / 0.8));
-    --gradient-sky: linear-gradient(180deg, hsl(210 25% 12%), hsl(210 25% 8%));
-    --gradient-button: linear-gradient(135deg, hsl(174 70% 50%), hsl(174 70% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 45% 12% / 0.95), hsl(210 40% 18% / 0.9));
+    --gradient-sky: linear-gradient(180deg, hsl(210 45% 12%), hsl(210 50% 8%));
+    --gradient-button: linear-gradient(135deg, hsl(45 100% 65%), hsl(45 95% 60%));
 
     /* Dark shadows */
-    --shadow-aviation: 0 10px 30px -10px hsl(174 70% 50% / 0.4);
-    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
+    --shadow-aviation: 0 10px 30px -10px hsl(45 100% 65% / 0.4);
+    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.4);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

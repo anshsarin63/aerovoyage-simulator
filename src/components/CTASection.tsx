@@ -29,15 +29,15 @@ const CTASection = () => {
           
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-              <div className="text-3xl font-bold text-aviation-sky-light mb-2">Free</div>
+              <div className="text-3xl font-bold text-aviation-gold-light mb-2">Free</div>
               <div className="text-white/80">Demo Classes</div>
             </div>
             <div className="p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-              <div className="text-3xl font-bold text-aviation-sky-light mb-2">Expert</div>
+              <div className="text-3xl font-bold text-aviation-gold-light mb-2">Expert</div>
               <div className="text-white/80">Guidance</div>
             </div>
             <div className="p-6 bg-white/10 rounded-lg backdrop-blur-sm">
-              <div className="text-3xl font-bold text-aviation-sky-light mb-2">Proven</div>
+              <div className="text-3xl font-bold text-aviation-gold-light mb-2">Proven</div>
               <div className="text-white/80">Results</div>
             </div>
           </div>

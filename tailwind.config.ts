@@ -51,10 +51,10 @@ export default {
         aviation: {
           primary: "hsl(var(--aviation-primary))",
           "primary-light": "hsl(var(--aviation-primary-light))",
-          sky: "hsl(var(--aviation-sky))",
-          "sky-light": "hsl(var(--aviation-sky-light))",
           navy: "hsl(var(--aviation-navy))",
+          "navy-light": "hsl(var(--aviation-navy-light))",
           gold: "hsl(var(--aviation-gold))",
+          "gold-light": "hsl(var(--aviation-gold-light))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

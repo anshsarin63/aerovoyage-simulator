@@ -17,7 +17,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           Your Pilot Career
-          <span className="block text-aviation-sky-light">Starts Here</span>
+          <span className="block text-aviation-gold-light">Starts Here</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -39,15 +39,15 @@ const HeroSection = () => {
         {/* Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 text-white">
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-aviation-sky-light">500+</div>
+            <div className="text-3xl md:text-4xl font-bold text-aviation-gold-light">500+</div>
             <div className="text-white/80">Students Trained</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-aviation-sky-light">95%</div>
+            <div className="text-3xl md:text-4xl font-bold text-aviation-gold-light">95%</div>
             <div className="text-white/80">Success Rate</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-aviation-sky-light">24/7</div>
+            <div className="text-3xl md:text-4xl font-bold text-aviation-gold-light">24/7</div>
             <div className="text-white/80">Support Available</div>
           </div>
         </div>
