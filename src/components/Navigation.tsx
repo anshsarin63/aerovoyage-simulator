@@ -11,7 +11,7 @@ const Navigation = () => {
     { name: "About Us", href: "#about", isRoute: false },
     { name: "Training Programs", href: "#programs", isRoute: false },
     { name: "Instructors", href: "#instructors", isRoute: false },
-    { name: "Testimonials", href: "#testimonials", isRoute: false },
+    { name: "Testimonials", href: "/testimonials", isRoute: true },
     { name: "Blog", href: "#blog", isRoute: false },
     { name: "FAQ", href: "#faq", isRoute: false },
   ];
